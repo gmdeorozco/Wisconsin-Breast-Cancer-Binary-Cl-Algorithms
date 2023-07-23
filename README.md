@@ -31,44 +31,14 @@ To assess the performance of each algorithm, the following evaluation metrics ar
 - F1 Score
 - ROC AUC
 
-## Project Structure
-
-```
-- data/
-  - breast_cancer_wisconsin.csv    # Breast Cancer Wisconsin dataset
-- notebooks/
-  - data_exploration.ipynb         # Data exploration notebook
-  - algorithm_comparison.ipynb     # Algorithm comparison notebook
-- src/
-  - data_preprocessing.py          # Data preprocessing module
-  - model_evaluation.py            # Model evaluation module
-- results/
-  - algorithm_comparison_results.csv  # Results of algorithm comparison
-- README.md                      # This README file
-- requirements.txt               # Required packages and versions
-```
 
 ## Getting Started
 
-1. Clone this repository to your local machine.
+Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/binary-classification-algorithms.git
+git clone https://github.com/gmdeorozco/Wisconsin-Breast-Cancer-Binary-Cl-Algorithms.git
 ```
-
-2. Install the required packages by running:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Explore the data using the `data_exploration.ipynb` notebook to get familiar with the dataset.
-
-4. Run the `algorithm_comparison.ipynb` notebook to compare the performance of different algorithms.
-
-## Results
-
-The results of the algorithm comparison are saved in the `results/algorithm_comparison_results.csv` file. This file contains the evaluation metrics for each algorithm.
 
 ## Contributing
 
